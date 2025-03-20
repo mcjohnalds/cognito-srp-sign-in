@@ -1,0 +1,33 @@
+{
+  "name": "cognito-srp-sign-in",
+  "version": "0.1.0",
+  "description": "Sign in to Cognito using SRP",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tsc --noEmit && prettier --check .",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcjohnalds/cognito-srp-sign-in.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcjohnalds/cognito-srp-sign-in/issues"
+  },
+  "homepage": "https://github.com/mcjohnalds/cognito-srp-sign-in#readme",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.3.12"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "prettier": {},
+  "engines": {
+    "node": ">=20"
+  }
+}
