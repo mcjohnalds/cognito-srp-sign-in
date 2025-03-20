@@ -2,10 +2,12 @@
   "name": "cognito-srp-sign-in",
   "version": "0.1.0",
   "description": "Sign in to Cognito using SRP",
-  "main": "index.js",
+  "bin": {
+    "cognito-srp-sign-in": "./index.js"
+  },
   "scripts": {
     "lint": "tsc --noEmit && prettier --check .",
-    "build": "tsc"
+    "build": "tsc && chmod +x index.js"
   },
   "repository": {
     "type": "git",
