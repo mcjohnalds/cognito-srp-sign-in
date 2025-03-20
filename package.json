@@ -11,9 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/mcjohnalds/cognito-srp-sign-in.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cognito",
+    "srp",
+    "sign-in",
+    "aws",
+    "auth",
+    "authentication",
+    "aws-cognito",
+    "aws-cognito-identity-js"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mcjohnalds/cognito-srp-sign-in/issues"
   },
@@ -28,6 +37,7 @@
   },
   "prettier": {},
   "engines": {
+    "//": "We depend on parseArgs from node:util which become stable in v20",
     "node": ">=20"
   }
 }
